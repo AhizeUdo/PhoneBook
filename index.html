@@ -8,75 +8,51 @@
     <title>Phone Book</title>
 </head>
 <body>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col">
-                <nav class="navbar navbar-light bg-light">
-                    <a class="navbar-brand">PhoneBook</a>
-                    <form class="form-inline">
-                      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-                      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-                    </form>
-                  </nav>
-            </div>
-        </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-6 ">
-                    <div class="card shadow p-3 mb-5 bg-white rounded" style="width: 14rem;">
-                        <img src="/Cardimg.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                          <h5 class="card-title">Welcome back John.</h5>
-                          <p class="card-text">Lets get started......</p>
-                        </div>
-                      </div>
-                   
+    <br><br><br>
+    
+    <div class="container ">
+        <div class="row justify-content-center">
+            <div class="col-12 align-self-center">
+                <div class="card" style="width: 25rem;  border-radius: 10px;">
+                    <ul class="list-group list-group-flush" >
+                      <li class="list-group-item" style="border: 0;">
+                            <div class="row">
+                                <div class="col-12 align-self-center">
+                                    <div class="card" style="width: 17rem;">
+                                        <img src="/PhoneBook/Cardimg.png"               class="card-img-top" alt="userimg" width="12" height="250" >
+                                        <div class="card-body">
+                                            <h5 class="card-title">Welcome back John</h5>
+                                            <p class="card-text">You can now save contacts to your personal email.</p>
+                                        </div>
+                                  </div>
+                                </div>
+                            </div>
+                      </li>
+                      <li class="list-group-item" style="border: 0;">
+                        <div class="row">
+                            <div class="col-12 align-self-center" style="width: 17rem;">
+                                <div class="btn-group" role="group" aria-label="Basic example" style="width: 20rem; margin: 0.25rem;">
+                                    <button type="button" class="btn btn-secondary">
+                                        <i class="bi bi-chat-left-dots"></i>
+                                    </button>
+                                    <button type="button" class="btn btn-secondary">Middle</button>
+                                    <button type="button" class="btn btn-secondary">Right</button>
+                                    <button type="button" class="btn btn-secondary">Down</button>
+                                  </div>
+                            </div>
+                        </div> 
+                      </li>
+                      <li class="list-group-item">A third item</li>
+                    </ul>
+                    <div class="card-footer">
+                      Card footer
+                    </div>
                 </div>
             </div>
         </div>
-        <br>
-        <div class="container">
-            <div class="row">
-                <div class="col-12" id="main">
-                    <h3>Add Members</h3>
-                    <form id="addForm" class="form-inline mb-3">
-                        <input type="text" class="form-control mr-2" id="item">
-                        <input type="submit" class="btn btn-dark" value="submit">
-                    </form>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-12">
-                    <h4 class="title">Members</h4>
-                </div>
-            </div>
-        </div>
-        <br>
-        <div class="container">
-            <ul id="items" class="list-group">
-                <li class="list-group-item">Item 1 <button
-                    class="btn btn-danger btn-sm float-right
-                    delete">X</button> </li>
-                <li class="list-group-item">Item 2 <button
-                    class="btn btn-danger btn-sm float-right
-                    delete">X</button></li>
-                <li class="list-group-item">Item 3 <button
-                    class="btn btn-danger btn-sm float-right
-                    delete">X</button></li>
-                <li class="list-group-item">Item 4 <button
-                    class="btn btn-danger btn-sm float-right
-                    delete">X</button></li>
-                <li class="list-group-item">Item 5 <button
-                    class="btn btn-danger btn-sm float-right
-                    delete">X</button></li>
-             </ul>
-        </div>
-        <br>
     </div>
-
+    
+    <br><br><br>
 
     <script src="dom.js"></script>
     
